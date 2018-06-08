@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "这是徐代龙进行的第二篇文章"
-categories: SnakeSon
+title:  "这是我的第一篇文章"
+categories: esao
 tags:  hexo JavaScript
-author: SnakeSon
+author: esao
 ---
 
 * content
@@ -11,7 +11,7 @@ author: SnakeSon
 
 ## 目的：
 
-写这篇文章的目的主要是为了测试在本地进行md文件的编写是否能使用hexo进行html生成，然后上传到github上，通过访问https://day21.top 这个网站查看能否看到最新的文章
+写这篇文章的目的主要是为了测试在本地进行md文件的编写是否能使用hexo进行html生成，然后上传到github上，通过访问www.14how.com 这个网站查看能否看到最新的文章
 
 
 
@@ -59,7 +59,7 @@ Configuration file: F:/myself/643435675.github.io/_config.yml
 ```
 
 主要进行了以上操作：
-cd 643435675.github.io  文件夹下
+cd woshiyeshihao123.github.io  文件夹下
 
 执行命令：
 
@@ -81,7 +81,7 @@ cd 643435675.github.io  文件夹下
 ```md
 ## 目的：
 
-写这篇文章的目的主要是为了测试在本地进行md文件的编写是否能使用hexo进行html生成，然后上传到github上，通过访问https://day21.top 这个网站查看能否看到最新的文章
+写这篇文章的目的主要是为了测试在本地进行md文件的编写是否能使用hexo进行html生成，然后上传到github上，通过访问https://14how.com 这个网站查看能否看到最新的文章
 
 
 
