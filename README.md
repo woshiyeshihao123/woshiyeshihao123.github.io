@@ -177,7 +177,7 @@ Shows at site header part.
 
 ```yml
 # Site settings
-title: HyG
+title: Esao
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
@@ -189,16 +189,16 @@ Mainly shows at the footer of the site.
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: 
+facebook_username: 
+github_username:  woshiyeshihao123
+email: 706722153@QQ.com
+weibo_username: 18357619668
+zhihu_username: yohoho
+linkedIn_username: 
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 记录我从前端到全栈走过的道路
 ```
 
 #### Comments info
@@ -211,7 +211,7 @@ Visit https://disqus.com/ or http://duoshuo.com/. And follow the prompts at the 
 # comments
 # two ways to comment, only choose one, and use your own short name
 duoshuo_shortname: #hygblog
-disqus_shortname: xxxx
+disqus_shortname: Esao
 ```
 
 When you done, you can also see the comments info at disqus or duoshuo admin console.

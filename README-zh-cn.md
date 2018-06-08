@@ -94,7 +94,7 @@
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname: #xxx
-disqus_shortname: xxx
+disqus_shortname: Esao
 ```
 
 ### 目录 Contents
@@ -177,7 +177,7 @@ gem install jekyll
 
 ```yml
 # Site settings
-title: HyG
+title: Esao
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
