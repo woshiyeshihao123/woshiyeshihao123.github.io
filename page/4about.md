@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
 舟山定海在读大学生
 
@@ -30,7 +30,7 @@ type: page
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/woshiyeshihao123)
+* GitHub：[woshiyeshihao123](https://github.com/woshiyeshihao123)
 * email：706722153@qq.com
 * [Weibo](http://weibo.com/5649620380)
 * [知乎](https://www.zhihu.com/people/c3b848a97cfeda95e562d82278a2ada9)
