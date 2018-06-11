@@ -7,7 +7,7 @@
 
 # Site settings
 title: 叶士豪的博客
-brief-intro: Web Coder
+brief-intro: Front end Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://woshiyeshihao123.github.io" # the base hostname & protocol for your site
 
