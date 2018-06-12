@@ -16,7 +16,7 @@
     {
       demo_link: 'http://woshiyeshihao123.github.io/demo-lib/quorrajs-index/',
       img_link: 'https://i.loli.net/2018/06/12/5b1f6df8e8648.png',
-      code_link: 'https://github.com/woshiyeshihao123/demo-lib/blob/master/small-tasks/quorrajs-index/,
+      code_link: 'https://github.com/woshiyeshihao123/demo-lib/blob/master/small-tasks/quorrajs-index/',
       title: '仿quorrajs动态头部NAV',
       core_tech: 'jQuery BootStrap CSS3',
       description: '还原了一个简单的 CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色,并且缩小高度。仿照了网站 <a href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
