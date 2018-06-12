@@ -53,6 +53,12 @@
         #contentList{
           text-align: center;
           list-style: none;
+        }
+        li.first{
+          font-size: 18px;
+        }
+        li.active{
+          color: #ddd;
         } 
       </style>
 
@@ -97,8 +103,8 @@
     <script>
 
         var html = '';
-        for(var i=0;i<50;i++){
-        if(i==0){
+        for(var i=0;i<30;i++){
+        if(i%2==!0){
           html +='<li class="first"><div class="number">';
         }else{
           html += '<li class="first active"><div class="number">'
