@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 相关
 permalink: /about/
 icon: heart
 type: page
