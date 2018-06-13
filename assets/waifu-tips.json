@@ -9,8 +9,8 @@
             "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"]
         },
         {
-            "selector": "#tor_show",
-            "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"]
+            "selector": ".page .right .side > div",
+            "text": ["翻页比较麻烦吗，可以通过导航目录跳转哦"]
         },
         {
             "selector": "#comment_go,.fui-chat",
@@ -19,10 +19,6 @@
         {
             "selector": "#night_mode",
             "text": ["深夜时要爱护眼睛呀"]
-        },
-        {
-            "selector": "#qrcode",
-            "text": ["手机扫一下就能继续看，很方便呢"]
         },
         {
             "selector": ".comment_reply",
@@ -57,59 +53,27 @@
             "text": ["要[提交]^(Commit)了吗，首次评论需要审核，请耐心等待~"]
         },
         {
-            "selector": ".ImageBox",
-            "text": ["点击图片可以放大呢"]
-        },
-        {
             "selector": "input[name=s]",
             "text": ["找不到想看的内容？搜索看看吧"]
         },
         {
-            "selector": ".previous",
-            "text": ["去上一页看看吧"]
-        },
-        {
-            "selector": ".next",
-            "text": ["去下一页看看吧"]
-        },
-        {
-            "selector": ".dropdown-toggle",
-            "text": ["这里是菜单"]
-        },
-        {
-            "selector": "c-player a.play-icon",
-            "text": ["想要听点音乐吗"]
-        },
-        {
-            "selector": "c-player div.time",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">播放进度</span>呢"]
-        },
-        {
-            "selector": "c-player div.volume",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"]
-        },
-        {
-            "selector": "c-player div.list-button",
-            "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
-        },
-        {
-            "selector": "c-player div.lyric-button",
-            "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"]
-        },
-        {
             "selector": ".waifu #live2d",
-            "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"]
+            "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！","你再乱动我就告诉我爸妈!"]
         }
     ],
     "click": [
         {
             "selector": ".waifu #live2d",
-            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)","我妈发脾气贼凶,我爸都怕他","别闹,我去刷个单","想吃泡面了.....","吃鸡嘛,我贼6"]
         }
     ],"seasons": [
         {
             "date": "01/01",
             "text": "<span style=\"color:#0099cc;\">元旦</span>了呢，新的一年又开始了，今年是{year}年~"
+        },
+        {
+            "date": "02/10",
+            "text": "生日快乐呀<span style=\"color:#0099cc;\">m1n</span>~"
         },
         {
             "date": "02/14",
@@ -134,6 +98,14 @@
         {
             "date": "06/01",
             "text": "<span style=\"color:#0099cc;\">儿童节</span>了呢，快活的时光总是短暂，要是永远长不大该多好啊…"
+        },
+        {
+            "date": "07/12",
+            "text": "<span style=\"color:#0099cc;\">博主的生日</span>到了了呢"
+        },
+        {
+            "date": "09/02",
+            "text": "<span style=\"color:#0099cc;\">在一起</span>又一年了~"
         },
         {
             "date": "09/03",

@@ -136,7 +136,7 @@ function elseActed() {
 
 function showHitokoto(){
 	/* 增加 hitokoto.cn API */
-    $.getJSON('https://v1.hitokoto.cn',function(result){
+    $.getJSON('https://v1.hitokoto.cn/?c=f',function(result){
         var text = '这句一言来自 <span style="color:#0099cc;">『{source}』</span>，是 <span style="color:#0099cc;">{creator}</span> 在 hitokoto.cn 投稿的。';
         text = text.render({source: result.from, creator: result.creator});
         showMessage(result.hitokoto, 5000);
