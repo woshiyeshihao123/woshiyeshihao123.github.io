@@ -21,6 +21,14 @@
       });
     </script>
     <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+
+    <script src="{{"/assets/live2d.js"}}"></script>
+    <script src="{{"/assets/waifu-tips.js"}}"></script>
+    <script type="text/javascript">
+    window.onload=function(){
+    initModel("{{'/assets/'}}")
+  };   
+    </script>
   </body>
 
 </html>
