@@ -32,8 +32,8 @@ type: page
 
 * GitHub：[woshiyeshihao123](https://github.com/woshiyeshihao123)
 * email：706722153@qq.com
-* [Weibo](http://weibo.com/5649620380)
-* [知乎](https://www.zhihu.com/people/cf134aa4f30afd33f7219e8693960a2b)
+* [Weibo](http://weibo.com/)
+* [知乎](https://www.zhihu.com/people/)
 
 ## 关于本站
 
