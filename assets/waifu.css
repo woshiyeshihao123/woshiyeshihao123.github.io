@@ -1,7 +1,8 @@
 .waifu {
     position: fixed;
     bottom: 0;
-    right: 60px;
+    left: 50%;
+    margin-left: 16%;
     z-index: 1;
     font-size: 0;
     transition: all .3s ease-in-out;
