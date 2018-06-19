@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Chrome下禁止文本框输入中文"
+categories: Esao
+tags:  html JavaScript css
+author: Esao
+---
+
+* content
+{:toc}
+
+## 目的：
+
+项目开发中发现chorme浏览器中  要是想给type=text的input 禁止输入中文,只能使用正则进行replace 无法实现成像ie中ime-mode:disable那样不能够输入汉字,于是想了一个解决方法
+
+
+
+
+
+## 具体思路：
+
+
+### 首先在网上寻找了相关资料
+
+一般都采用了如下类似的办法
+
+demo:
+
+
+<input type="text" style="ime-mode:disabled" onkeyup="this.value=this.value.replace(/[\u4e00-\u9fa5]/g,'')"/>
+
+
+
+```
+<input type="text" style="ime-mode:disabled" onkeyup="this.value=this.value.replace(/[\u4e00-\u9fa5]/g,'')"/>
+```
+
+
+其中  `style="ime-mode:disabled"` 禁止了在该文本框中使用输入法 但在IE/Firefox下可以实现,Chrome下并不兼容,这行在Chrome下不起作用
+
+
+
+
+`onkeyup="this.value=this.value.replace(/[\u4e00-\u9fa5]/g,'')"` //\u4e00-\u9fa5为中文的编码范围   当 __键盘松开__ 时若文本框内的值为中文时则 __替换__ 为空 也就是删除
+
+然而这并不是禁止,在上面的demo中输入中文时可以明显感觉到文本的闪烁,也就是说 文本是机会存入input中,甚至我的一位小伙伴用单身20年的手速 在完成输入的中文 __替换__ 删除前完成了提交....
+
+### 解决方法
+
+[点击查看demo](http://woshiyeshihao123.github.io/demo-lib/Chorme-input/)
+因为在Chrome下无法禁止输入法,所以利用了password传值(password只支持数字，字母，特殊字符)
+这只是临时办法,还不够完善,有更好的办法请各位指正.
+

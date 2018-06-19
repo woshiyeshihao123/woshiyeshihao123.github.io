@@ -21,12 +21,12 @@
       core_tech: 'jQuery BootStrap CSS3',
       description: '还原了一个简单的 CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色,并且缩小高度。仿照了网站 <a href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/mask-fade-out/',
-      img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/demo-fade-out.png',
+      demo_link: 'http://woshiyeshihao123.github.io/demo-lib/Chorme-input/',
+      img_link: 'https://i.loli.net/2018/06/19/5b28904160ba3.png',
       code_link: 'https://github.com/Gaohaoyang/mask-fade-out',
-      title: '遮罩层按指定路径缩小消失',
+      title: '在chrome下禁止input中文输入',
       core_tech: 'jQuery CSS',
-      description: '使用 animate 方法，做到兼容 IE8。曾在联想服务官网上线3个月。'
+      description: '临时办法,只在Chrome下斟酌使用,利用 password 只支持数字，字母，特殊字符的特性，使 Chrome 兼容实现 禁用输入法 禁止中文输入 的功能。'
     }, {
       demo_link: 'http://gaohaoyang.github.io/ToDo-WebApp/',
       img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/blog-todoWebApp.png',
