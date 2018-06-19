@@ -23,7 +23,7 @@
     }, {
       demo_link: 'http://woshiyeshihao123.github.io/demo-lib/Chorme-input/',
       img_link: 'https://i.loli.net/2018/06/19/5b28904160ba3.png',
-      code_link: 'https://github.com/Gaohaoyang/mask-fade-out',
+      code_link: 'https://github.com/woshiyeshihao123/demo-lib/tree/master/small-tasks/Chorme-input',
       title: '在chrome下禁止input中文输入',
       core_tech: 'jQuery CSS',
       description: '临时办法,只在Chrome下斟酌使用,利用 password 只支持数字，字母，特殊字符的特性，使 Chrome 兼容实现 禁用输入法 禁止中文输入 的功能。'

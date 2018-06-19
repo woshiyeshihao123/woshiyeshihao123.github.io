@@ -51,3 +51,32 @@ demo:
 因为在Chrome下无法禁止输入法,所以利用了password传值(password只支持数字，字母，特殊字符)
 这只是临时办法,还不够完善,有更好的办法请各位指正.
 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <input class="noselect" id="username" style="background: none; padding: 4px; border: 1px solid rgb(0, 0, 0); border-image: none; left: 178px; color: transparent; position: relative;" ondragenter="return false" onpaste="return false" type="password" autocomplete="off">
+  <input id="result" style="border: none"></input> 
+
+  <script>
+    $(function(){  
+
+$('#username').bind('input propertychange', function() {  
+    $('#result').val($(this).val());  
+});  
+  
+})  
+
+  </script>
+</body>
+</html>
+```
+
