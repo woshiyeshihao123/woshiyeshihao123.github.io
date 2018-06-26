@@ -28,10 +28,10 @@
       core_tech: 'jQuery CSS',
       description: '临时办法,只在Chrome下斟酌使用,利用 password 只支持数字，字母，特殊字符的特性，使 Chrome 兼容实现 禁用输入法 禁止中文输入 的功能。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/ToDo-WebApp/',
+      demo_link: 'http://woshiyeshihao123.github.io/demo-lib/adrock/',
       img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/blog-todoWebApp.png',
       code_link: 'https://github.com/Gaohaoyang/ToDo-WebApp',
-      title: '百度前端学院 task0004 ToDo 应用(移动端)',
+      title: 'lottie',
       core_tech: 'JavaScript LocalStorage requireJS Sass Gulp XSS',
       description: '在任务三中，做了一个 PC 端的 ToDo 应用。任务四是将它优化，以适应移动端设备。'
     }, {
