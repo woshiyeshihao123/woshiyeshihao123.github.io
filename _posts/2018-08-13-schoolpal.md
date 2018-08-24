@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "搭建一个 伪"校宝学院"（1）"
+title:  "搭建一个 伪.校宝学院（1）"
 categories: Esao
 tags:  VUE axios nodejs MongoDB express nginx vue-cli3
 author: Esao
