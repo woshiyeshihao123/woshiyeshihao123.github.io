@@ -1,0 +1,127 @@
+#content {
+  width: 360px;
+  height: 290px;
+  padding: 30px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  margin: 10% auto;
+  background: #fff;
+}
+
+#content header {
+  text-align: center;
+  padding-bottom: 17px;
+  background: url(../../assets/img/hr.png) no-repeat bottom center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #4A90E2;
+}
+
+#center {
+  display: block;
+  margin: 17px auto;
+}
+
+.userinput {
+  display: block;
+  box-sizing: border-box;
+  width: 320px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  padding-left: 33px;
+  font-size: 14px;
+}
+
+.userinput:focus {
+  border: 1px solid #4A90E2;
+}
+
+.userinput + .userinput {
+  margin-top: 20px;
+}
+
+#username {
+  background: url("../../assets/img/userIcon.png") no-repeat;
+  background-position: 9px 50%;
+}
+
+#password {
+  background: url("../../assets/img/pswdIcon.png") no-repeat;
+  background-position: 9px 50%;
+}
+
+#first {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 18px;
+  color: #4a4a4a;
+  margin-bottom: 23px;
+}
+
+#first span {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+#first input[type="checkbox"] + label::before {
+  content: "\a0";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #9b9b9b;
+  text-indent: .15em;
+  line-height: .65;
+  margin-right: 10px;
+}
+
+#first input[type="checkbox"] + label::before {
+  content: "\a0";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #9b9b9b;
+  text-indent: .15em;
+  line-height: .65;
+  margin-right: 10px;
+}
+
+.rt {
+  float: right;
+}
+
+#first a {
+  color: #4A90E2;
+}
+
+#login {
+  display: block;
+  width: 320px;
+  height: 40px;
+  background: #4a90e2;
+  border-radius: 5px;
+  border: none;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.gologup {
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.gologup a {
+  color: #4A90E2;
+}
+
+#login:hover {
+  background: #4281CB;
+}

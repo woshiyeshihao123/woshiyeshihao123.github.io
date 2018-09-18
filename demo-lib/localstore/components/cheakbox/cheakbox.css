@@ -1,0 +1,37 @@
+@charset "UTF-8";
+input[type="checkbox"] + label::before {
+  content: "\a0";
+  /*不换行空格*/
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #9b9b9b;
+  text-indent: .15em;
+  line-height: .65;
+  /*行高不加单位，子元素将继承数字乘以自身字体尺寸而非父元素行高*/
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  content: "\a0";
+  width: 16px;
+  height: 16px;
+  background: url(../../assets/img/right.png) no-repeat;
+  background-position: center center;
+  border-radius: 3px;
+  background-color: #4a90e2;
+  border: 1px solid #4a90e2;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+input[type="checkbox"]:disabled + label::before {
+  background-color: gray;
+  box-shadow: none;
+  color: #555;
+}

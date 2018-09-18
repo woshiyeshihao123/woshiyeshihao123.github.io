@@ -1,0 +1,370 @@
+@charset "UTF-8";
+body {
+  background-color: #EBEBEB;
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #2d2d2d;
+  font-size: 18px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.header .warp {
+  display: inline-block;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1200px;
+  height: 100%;
+}
+
+.aside {
+  z-index: 100;
+  position: fixed;
+  top: 40px;
+  float: left;
+  width: 200px;
+  height: 100%;
+  padding: 30px 0;
+  box-sizing: border-box;
+  background-color: #505CBE;
+}
+
+.school {
+  display: block;
+  margin: 0 auto;
+}
+
+.tablist {
+  width: 200px;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 28px;
+  padding: 0;
+}
+
+.tablist li {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 48px;
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  transition: all .2s;
+  -moz-transition: all .2s;
+  /* Firefox 4 */
+  -webkit-transition: all .2s;
+  /* Safari 和 Chrome */
+  -o-transition: all .2s;
+  /* Opera */
+}
+
+.tablist li:hover {
+  opacity: 1;
+}
+
+.tablist li.active {
+  opacity: 1;
+  background-color: #424EB0;
+  border-left: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.tab-index {
+  background-image: url(../img/home.png);
+}
+
+.tab-member {
+  background-image: url(../img/employee.png);
+}
+
+.main {
+  margin-left: 200px;
+  margin-top: 40px;
+  width: 1000px;
+  height: 663px;
+  background-color: #EBEBEB;
+}
+
+.crumbs {
+  z-index: 50;
+  position: fixed;
+  width: 100%;
+  height: 45px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 12px 20px 14px;
+  box-sizing: border-box;
+  border: 1px solid #E5E5E5;
+  color: #4A4A4A;
+}
+
+.scrollbox {
+  padding-top: 45px;
+}
+
+.inputbox {
+  padding: 20px;
+}
+
+.inputbox input {
+  box-sizing: border-box;
+}
+
+.inputbox input[type="button"] {
+  padding: 6px 13px;
+  background: #4A90E2;
+  border-radius: 5px;
+  border: 1px solid #4A90E2;
+  font-size: 14px;
+  color: #fff;
+  transition: all .2s;
+  -moz-transition: all .2s;
+  /* Firefox 4 */
+  -webkit-transition: all .2s;
+  /* Safari 和 Chrome */
+  -o-transition: all .2s;
+  /* Opera */
+}
+
+.inputbox input[type="button"]:hover {
+  background-color: #4281CB;
+}
+
+.inputbox .serch-box {
+  float: right;
+}
+
+.serch-box input[type="text"] {
+  width: 240px;
+  height: 30px;
+  border: 1px solid #ccc;
+  position: relative;
+  top: -10px;
+  right: -20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.serch-box input[type="button"] {
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: url(../img/searchIcon.png) no-repeat center center;
+  background-color: #4A90E2;
+  padding: 0;
+  width: 40px;
+  height: 30px;
+}
+
+.tablelist {
+  position: relative;
+  width: 960px;
+  height: 520px;
+  background: url(../img/noData.png) no-repeat center center;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.nodata {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: 60px;
+}
+
+.nonedata::after {
+  content: '无数据';
+  position: relative;
+  top: 280px;
+  left: 455px;
+}
+
+.alert {
+  display: none;
+  z-index: 150;
+  box-sizing: border-box;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -205px;
+  margin-top: -120px;
+  padding: 40px 34px;
+  text-align: center;
+  width: 410px;
+  height: 240px;
+  background: #fff;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  right: 10px;
+  top: 10px;
+  background: url(../img/close.png) no-repeat;
+}
+
+.close:hover {
+  background-image: url(../img/close2.png);
+}
+
+.inputbox input + input {
+  margin-left: 20px;
+}
+
+.inputbox input[type="button"].cancel {
+  background: #fff;
+  border-color: #CCCCCC;
+  color: #4A4A4A;
+}
+
+.inputbox input[type="button"].cancel:hover {
+  border-color: #4A90E2;
+  color: #4A90E2;
+}
+
+.modle {
+  display: none;
+  position: fixed;
+  top: -40px;
+  width: 100%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.8);
+  clear: both;
+  z-index: 100;
+}
+
+.show {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.userdata {
+  z-index: 100;
+  height: 40px;
+  position: relative;
+}
+
+.userdata:hover .pop {
+  display: block;
+}
+
+.userhead {
+  width: 30px;
+  height: 30px;
+  background: url(../img/pic.png) no-repeat center center;
+  background-color: #fff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  z-index: 100;
+  margin-top: 5px;
+  margin-right: 38px;
+}
+
+.pop {
+  display: none;
+  position: absolute;
+  right: 18px;
+  top: 35px;
+  box-sizing: border-box;
+  width: 240px;
+  height: 140px;
+  z-index: 200;
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+
+.pop .top-data {
+  padding: 0 20px;
+}
+
+.pop .user-main-data {
+  color: #4A4A4A;
+  font-size: 14px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.pop .user-main-data li {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pop .userhead-big {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: url(../img/pic2.png) no-repeat center center;
+  background-color: #F1F1F1;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  z-index: 100;
+  margin-top: 19px;
+  margin-right: 38px;
+}
+
+.pop .inputbox {
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  text-align: center;
+  width: 240px;
+  height: 40px;
+  background: #F5F5F5;
+  box-shadow: 0px 1px 0px 0px #E5E5E5;
+  opacity: 0.5;
+}
+
+.pop .inputbox input[type="button"] {
+  width: 70px;
+  height: 26px;
+  font-size: 12px;
+  padding: 0;
+  background: transparent;
+  color: #4A4A4A;
+  border-color: #CCCCCC;
+  border-radius: 3px;
+}
+
+.pop .inputbox input + input {
+  margin-left: 58px;
+}

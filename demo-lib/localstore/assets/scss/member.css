@@ -1,0 +1,150 @@
+@charset "UTF-8";
+input {
+  box-sizing: border-box;
+}
+
+.member {
+  width: 960px;
+  height: 585px;
+  background: #fff;
+  padding: 18px 16px;
+  font-size: 14px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.paddingbox {
+  height: 65px;
+}
+
+.table {
+  padding: 0 42px;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+  width: 927px;
+}
+
+.table tbody {
+  padding-bottom: 10px;
+}
+
+.table tr {
+  margin-bottom: 19px;
+  padding: 0;
+  height: 56px;
+}
+
+.table tr span {
+  float: right;
+  line-height: 6px;
+  padding-left: 20px;
+}
+
+.table tr td:nth-child(3) {
+  padding-left: 20px;
+  width: 117px;
+}
+
+.table tr div {
+  white-space: nowrap;
+}
+
+.table tr div.lx_select_box {
+  padding-bottom: 0;
+}
+
+.table input[type='text'] {
+  width: 300px;
+  height: 36px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #979797;
+  margin-left: 21px;
+  padding: 0 10px;
+}
+
+.table input[type='text'].active {
+  border-color: #D0021B;
+}
+
+input[type="radio"] + label::before {
+  content: "\a0";
+  /*不换行空格*/
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  width: 1em;
+  height: 1em;
+  margin-right: .4em;
+  border-radius: 50%;
+  border: 1px solid #4A90E2;
+  text-indent: .15em;
+  line-height: 1;
+  box-sizing: border-box;
+  transition: all .2s;
+  -moz-transition: all .2s;
+  /* Firefox 4 */
+  -webkit-transition: all .2s;
+  /* Safari 和 Chrome */
+  -o-transition: all .2s;
+  /* Opera */
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 5px solid #4A90E2;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-left: 22px;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.sex {
+  padding-left: 20px;
+}
+
+.lx_select {
+  margin-left: 20px;
+}
+
+.inputbox .submit {
+  height: 40px;
+}
+
+.errorholder {
+  position: relative;
+}
+
+#warning {
+  display: none;
+  color: #D0021B;
+}
+
+.error {
+  position: absolute;
+  left: 22px;
+  top: 55px;
+  color: #D0021B;
+  font-size: 12px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.member .inputbox {
+  padding: 0;
+  margin-left: 18px;
+}
+
+.member .inputbox input {
+  padding: 5px 26px;
+}

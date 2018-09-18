@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../assets/scss/reset.css">
+  <link rel="stylesheet" href="../../assets/scss/index.css">
+  <link rel="stylesheet" href="../../components/down/lx_select.css">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../../assets/js/index.js"></script>
+  <script src="../../components/down/lx_select.js"></script>
+  <link rel="stylesheet" href="../../assets/scss/member.css">
+  <link rel="stylesheet" href="../../assets/scss/memberdata.css">
+</head>
+
+<body>
+  <header class="header">
+    <span>机构管理系统</span>
+  </header>
+  <div class="content">
+    <aside class="aside">
+      <img class="school" src="../../assets/img/81.png">
+      <ul class="tablist">
+        <li class="tab-index">首页</li>
+        <li class="tab-member active" onclick="member()">员工管理</li>
+        <li class="tab-index">首页</li>
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="crumbs">当前位置：<span>员工&gt;员工列表</span></div>
+      <div class="paddingbox"></div>
+      <div class="member">
+        <p class="title">基本信息</p>
+        <table class="table">
+          <tr>
+            <td width="50">
+              <div><span>姓名</span></div>
+            </td>
+            <td width="200">
+              <div></div>
+            </td>
+             <td width="50">
+              <div><span>姓名</span></div>
+            </td>
+            <td width="200">
+              <div></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>居住地址</span></div>
+            </td>
+            <td class="errorholder">
+              <div></div>
+            </td>
+             <td>
+              <div><span>姓名</span></div>
+            </td>
+            <td>
+              <div></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>性别</span></div>
+            </td>
+            <td>
+              <div>
+              </div>
+            </td>
+             <td>
+              <div><span>姓名</span></div>
+            </td>
+            <td>
+              <div>1212</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>姓名</span></div>
+            </td>
+            <td>
+              <div>
+               1212
+              </div>
+            </td>
+             <td>
+              <div><span>姓名</span></div>
+            </td>
+            <td>
+              <div>1212</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>姓名</span></div>
+            </td>
+            <td>
+              <div>1212</div>
+            </td>
+             <td>
+              <div><span>是否独生子女</span></div>
+            </td>
+            <td>
+              <div>12</div>
+            </td>
+          </tr>
+        </table>
+
+        <p class="title">其他信息</p>
+        <table class="table">
+            <tr>
+              <td width="50">
+                <div><span>家长姓名</span></div>
+              </td>
+              <td width="200">
+                <div>
+                  1212
+                </div>
+              </td>
+               <td width="50">
+                <div><span>电子邮箱</span></div>
+              </td>
+              <td width="200">
+                <div>1212</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="50">
+                <div><span>姓名</span></div>
+              </td>
+              <td width="200">
+                <div>1212</div>
+              </td>
+               <td width="50">
+                <div><span>姓名</span></div>
+              </td>
+              <td width="200">
+                <div>1212</div>
+              </td>
+            </tr>
+          </table>
+        <div class="inputbox"></div>
+      </div>
+    </main>
+  </div>
+</body>
+<script>
+  $("#selectbox1").Lx_SelectInit({
+    width: 299, //下拉框固定宽度
+    height: 36, //下拉框高度也是行高
+    maxWidth: 300, //下拉框下拉选项最大宽度
+    optionMinNum: 3, //下拉框下拉选项最小展示条数
+    optionMaxNum: 5, //下拉框下拉选项最大展示条数
+    zIndex: 10
+  });
+
+  $("#selectbox2").Lx_SelectInit({
+    width: 299, //下拉框固定宽度
+    height: 36, //下拉框高度也是行高
+    maxWidth: 300, //下拉框下拉选项最大宽度
+    optionMinNum: 3, //下拉框下拉选项最小展示条数
+    optionMaxNum: 5, //下拉框下拉选项最大展示条数
+    zIndex: 10
+  });
+
+</script>
+
+</html>

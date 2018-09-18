@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/scss/reset.css">
+    <link rel="stylesheet" href="../../assets/scss/index.css">
+    <link href="../../components/cheakbox/cheakbox.css" rel="stylesheet"/>
+    <link href="../../components/tablelist/list.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="wrap">机构管理系统
+            <div class="rt">
+                <div class="userdata">
+                    <div class="userhead"></div>
+                    <div class="pop">
+                        <div class="top-data clear">
+                            <div class="userhead-big"></div>
+                            <ul class="user-main-data">
+                                <li>用户名</li>
+                                <li>系统管理员</li>
+                            </ul>
+                        </div>
+                        <div class="inputbox">
+                            <input type="button" value="个人设置">
+                            <input type="button" value="注销">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <div class="content">
+        <aside class="aside">
+            <img class="school" src="../../assets/img/81.png">
+            <ul class="tablist">
+                <li class="tab-index active">首页</li>
+                <li class="tab-member">员工管理</li>
+                <li class="tab-index">首页</li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="crumbs">当前位置：<span>员工&gt;员工列表</span></div>
+            <div class="scrollbox">
+                <div class="inputbox">
+                    <input type="button" value="新建员工" onclick="location.href='../newmember/member.html'">
+                    <div class="serch-box">
+                        <input type="text"><input type="button">
+                    </div>
+                </div>
+                <div class="tablelist">
+                    <!-- 此处插入了list -->
+                        <table>
+            <thead class="thead"><td><input type="checkbox" id="all"/><label for="all"></label> </td><td>姓名</td><td>手机号</td> <td>所属部门</td> <td>入职时间</td> <td>人事状态</td> <td>机构账号</td> <td>操作</td></thead>
+        <tbody class="tbody">
+            <!-- <tr><td><input type="checkbox" id="1"/><label for="1"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="2"/><label for="2"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="3"/><label for="3"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="4"/><label for="4"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="5"/><label for="5"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="6"/><label for="6"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="7"/><label for="7"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="8"/><label for="8"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="9"/><label for="9"></label></td><td>李响</td><td>13912345678</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr>
+            <tr><td><input type="checkbox" id="12"/><label for="12"></label></td><td>菠萝菠萝蜜</td><td>这个校区名字特别长这个校区名字特别长这个校区名字特别长</td><td>2017级</td><td>1班</td><td>5</td><td>教职工</td><td><a href="#" class="link">编辑</a></td></tr> -->
+            <p class="nodata">无数据</p>
+        </tbody>
+    </table>
+    <div class="hr"></div>
+    <div id="page-dev"><span class="disable prv">上一页</span><span class="disable next">下一页</span></div>
+    <div id="pageNav"></div>
+                    <!-- 此处插入了list -->
+                </div>
+            </div>
+
+
+
+            <!-- 员工管理部分 BEGIN-->
+            <div class="member-main">
+                
+            </div>
+
+        </main>
+        
+        <div class="alert alertall">
+            <img src="../../assets/img/warn.png">
+            <div class="close"></div>
+            <p>当前操作将删除所有选中的数据，确定删除吗？</p>
+            <div class="inputbox">
+                <input type="button" value="确定删除" onclick="keepclear()">
+                <input class="cancel" type="button" value="取消操作" onclick="out()">
+            </div>
+        </div>
+
+        <div class="alert aleartchose">
+            <img src="../../assets/img/warn.png">
+            <div class="close"></div>
+            <p>当前操作将删除选中的数据，确定删除吗？</p>
+            <div class="inputbox">
+                <input type="button" value="确定删除" onclick="keepclear()">
+                <input class="cancel" type="button" value="取消操作" onclick="out()">
+            </div>
+        </div>
+
+    </div>
+    <div class="modle"></div>
+</body>
+<script src="../../assets/js/delet.js"></script>
+<script src="../../assets/js/index.js"></script>
+<script src="../../components/tablelist/list.js"></script>
+
+
+</html>

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* 表格 */
+table {
+  border-collapse: collapse;
+  width: 960px;
+}
+
+.thead {
+  width: 960px;
+  height: 44px;
+  background: #F2F3F4;
+  box-shadow: 0px 1px 0px 0px #E5E5E5;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr td:nth-child(3) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 147px;
+}
+
+tr td:last-child {
+  width: 108px;
+}
+
+td {
+  border-bottom: 1px solid #dedfe0;
+}
+
+/* 超链接 */
+.link {
+  width: 56px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #4a90e2;
+  line-height: 20px;
+  text-decoration: none;
+  /* 去除下划线 */
+}
+
+.link + .link{
+  margin-left: 5px;
+}
+
+.removethis{
+  display: none;
+}
+
+.tbody tr:hover{
+background-color: #F4F8FF;
+}
+
+.tbody tr:hover td .removethis{
+  display: inline;
+}
+
+.hr {
+  width: 960px;
+  height: 2px;
+  background-color: #E5E5E5;
+}
+
+/* 页码 */
+#page-dev {
+  text-align: center;
+  width: 960px;
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+#page-dev span:first-child {
+  width: 60px;
+  height: 30px;
+  border-left: 1px solid #cccccc;
+  padding-left: 0px;
+}
+
+#page-dev span:last-child {
+  width: 60px;
+  height: 30px;
+  border-left: 1px solid #cccccc;
+  padding-left: 0px;
+}
+
+#page-dev span {
+  line-height: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 30px;
+  width: 32px;
+  border: 1px solid #cccccc;
+  border-left: none;
+  padding-left: 1px;
+}
+
+#page-dev span.active {
+  border: 1px solid #4a90e2;
+  background: #4a90e2;
+  padding-left: 0px;
+  color: #fff;
+}
+
+#page-dev span:hover {
+  border: 1px solid #4a90e2;
+  padding-left: 0px;
+}
+
+#page-dev .disable {
+  border-color: #CCCCCC;
+  color: #AAAAAA;
+}
+
+
+
+.pageNum {
+  border: 1px solid #999;
+  padding: 2px 8px;
+  display: inline-block;
+}
+
+.cPageNum {
+  font-weight: bold;
+  padding: 2px 5px;
+}
+#pageNav{
+  -moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+#pageNav a:hover {
+  text-decoration: none;
+  background: #fff4d8;
+}

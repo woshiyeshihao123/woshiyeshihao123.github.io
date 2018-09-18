@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../assets/scss/reset.css">
+  <link rel="stylesheet" href="../../assets/scss/index.css">
+  <link rel="stylesheet" href="../../components/down/lx_select.css">
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <link rel="stylesheet" href="../../assets/scss/member.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <span>机构管理系统</span>
+  </header>
+  <div class="content">
+    <aside class="aside">
+      <img class="school" src="../../assets/img/81.png">
+      <ul class="tablist">
+        <li class="tab-index">首页</li>
+        <li class="tab-member active" onclick="member()">员工管理</li>
+        <li class="tab-index">首页</li>
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="crumbs">当前位置：<span id="where">员工&gt;员工列表</span></div>
+      <div class="paddingbox"></div>
+      <div class="member">
+        <p class="title">基本信息</p>
+        <table class="table">
+          <tr>
+            <td>
+              <div><span >姓名</span></div>
+            </td>
+            <td>
+              <div><input class="cont" type="text"></div>
+            </td>
+             <td>
+              <div><span>手机号</span></div>
+            </td>
+            <td>
+              <div><input class="cont" type="text"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>所属部门</span></div>
+            </td>
+            <td class="errorholder">
+              <div><input class="cont" type="text">
+            </td>
+             <td>
+              <div><span>入职时间</span></div>
+            </td>
+            <td>
+              <div><input class="cont" type="text"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div><span>人事状态</span></div>
+            </td>
+            <td>
+              <div><input class="cont" type="text"></div>
+            </td>
+             <td>
+              <div><span>机构账号</span></div>
+            </td>
+            <td>
+              <div><input class="cont" type="text"></div>
+            </td>
+          </tr>
+        </table>
+        <div class="inputbox"><input type="button" value="保存" onclick="save()"> <span id="warning">不能为空</span></div>
+       
+      </div>
+    </main>
+  </div>
+</body>
+<script src="../../components/down/lx_select.js"></script>
+<script src="../../assets/js/new.js"></script>
+<script>
+  $("#selectbox1").Lx_SelectInit({
+    width: 299, //下拉框固定宽度
+    height: 36, //下拉框高度也是行高
+    maxWidth: 300, //下拉框下拉选项最大宽度
+    optionMinNum: 3, //下拉框下拉选项最小展示条数
+    optionMaxNum: 5, //下拉框下拉选项最大展示条数
+    zIndex: 10
+  });
+
+  $("#selectbox2").Lx_SelectInit({
+    width: 299, //下拉框固定宽度
+    height: 36, //下拉框高度也是行高
+    maxWidth: 300, //下拉框下拉选项最大宽度
+    optionMinNum: 3, //下拉框下拉选项最小展示条数
+    optionMaxNum: 5, //下拉框下拉选项最大展示条数
+    zIndex: 10
+  });
+
+</script>
+
+</html>
