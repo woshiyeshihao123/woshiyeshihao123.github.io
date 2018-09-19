@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shadow Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrap shadow-curl">
+		<h1>Shadow Effect</h1>
+	</div>
+	<ul class="box">
+		<li><img src="http://7q5cdt.com1.z0.glb.clouddn.com/shadow-demo-css3-nut.jpg" alt="nut"></li>
+		<li><img src="http://7q5cdt.com1.z0.glb.clouddn.com/shadow-demo-css3-apple.jpg" alt="apple"></li>
+		<li><img src="http://7q5cdt.com1.z0.glb.clouddn.com/shadow-demo-css3-strawberry.jpg" alt="strawberry"></li>
+	</ul>
+</body>
+<script>
+let box = document.getElementsByClassName('box')[0];
+box.addEventListener('click',  ev => {
+	if(ev.target.nodeName.toLocaleLowerCase()=='li')
+	ev.target.style.backgroundColor="black";
+    console.log(ev)
+})
+</script>
+</html>
