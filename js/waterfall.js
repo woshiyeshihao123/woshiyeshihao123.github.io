@@ -49,9 +49,9 @@
       core_tech: 'CSS3',
       description: '使用 CSS3 中的旋转、缩放、过渡、动画等效果，制作出很酷的按钮效果。'
     }, {
-      demo_link: 'http://gaohaoyang.github.io/shadow-demo-css3',
+      demo_link: 'http://www.14how.com/demo-lib/shadow-demo-css3',
       img_link: 'http://7q5cdt.com1.z0.glb.clouddn.com/Demoshadow.png',
-      code_link: 'https://github.com/Gaohaoyang/shadow-demo-css3',
+      code_link: 'https://github.com/woshiyeshihao123/demo-lib/tree/master/small-tasks/shadow-demo-css3',
       title: 'CSS3 阴影特效',
       core_tech: 'CSS3',
       description: 'CSS3 中的阴影、旋转等效果，制作出曲边阴影和翘边阴影。'
