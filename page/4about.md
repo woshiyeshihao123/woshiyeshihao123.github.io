@@ -13,7 +13,7 @@ type: page
 
 <!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
-舟山定海在读大学生
+浙江台州在职
 
 主要兴趣集中在前端开发，大前端的概念深入我心。将更多的业务逻辑放在前端中，这很有趣。同时，将自己构想的内容实现出来，这种感觉很愉快。
 
@@ -26,14 +26,15 @@ type: page
 * 2018.03.12 以学生身份在学校兼职外包项目
 * 2018.04 获得发现杯本科组区域赛一等奖
 * 2018.05 获得发现杯本科组全国赛二等奖
-* 2018.05~至今 在读
+* 2018.05~2023.07 互联网、银行业打工，缺少学习，温水煮青蛙，技术被淘汰
+* 2023.07-至今 目标WEB网络攻防方向学习中
 
 ## 联系我
 
 * GitHub：[woshiyeshihao123](https://github.com/woshiyeshihao123)
 * email：706722153@qq.com
 * [Weibo](http://weibo.com/)
-* [知乎](https://www.zhihu.com/people/)
+<!-- * [知乎](https://www.zhihu.com/people/) -->
 
 ## 关于本站
 
