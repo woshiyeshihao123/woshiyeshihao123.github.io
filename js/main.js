@@ -45,32 +45,16 @@
     }
   })
 
-  // backToTopA.addEventListener('click',function (e) {
-  //     e.preventDefault()
-  //     window.scrollTo(0,0)
-  // })
+  backToTopA.addEventListener('click',function (e) {
+    e.preventDefault()
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+  })
+})
 }());
 
 //////////////////////////hover on demo//////////////////////////////
 (function() {
   var demoItems = document.querySelectorAll('.grid-item')
 }());
-
-
-const myTheme = {
-  render(state, instance) {
-    const container = document.createElement('div')
-    container.lang = "en-US"
-    container.className = 'gitment-container gitment-root-container'
-    container.appendChild(instance.renderHeader(state, instance))
-    container.appendChild(instance.renderEditor(state, instance))
-    container.appendChild(instance.renderComments(state, instance))
-    container.appendChild(instance.renderFooter(state, instance))
-    return container
-  },
-}
-const gitment = new Gitment({
-  // ...
-  theme: myTheme,
-})
-gitment.render('container')
