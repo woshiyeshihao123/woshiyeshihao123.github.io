@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "这是我的第一篇文章"
-categories: Esao
+categories: 前端
 tags:  hexo JavaScript
-author: Esao
+author: Eason
 ---
 
 * content

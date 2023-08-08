@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Chrome下禁止文本框输入中文"
-categories: Esao
+categories: 前端
 tags:  html JavaScript css
-author: Esao
+author: Eason
 ---
 
 * content

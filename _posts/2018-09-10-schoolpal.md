@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "搭建一个 伪.校宝学院（1）"
-categories: Esao
+categories: 前端
 tags:  VUE axios nodejs MongoDB express nginx vue-cli3
-author: Esao
+author: Eason
 ---
 
 * content
